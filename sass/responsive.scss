@@ -1,0 +1,53 @@
+@media screen and (max-width:1250px) {
+	.container { width: auto; }
+}
+@media screen and (max-width:1023px) {
+	.animated {
+	opacity: 1 !important;
+	visibility: visible !important;
+	-webkit-animation-name: none !important;
+	-moz-animation-name: none !important;
+	animation-name: none !important;
+	-webkit-animation-duration: 0s !important;
+	-moz-animation-duration: 0s !important;
+	animation-duration: 0s !important;
+	-webkit-animation-delay: 0s !important;
+	-moz-animation-delay: 0s !important;
+	animation-delay: 0s !important;
+	}
+}
+@media screen and (max-width:880px) {
+	.bargenerate {
+		> div { padding: 0; }
+		.formleft { flex: 1 1 100%; }
+		.barcoderight { flex: 0 1 100%; }
+		.barcodeplace { margin: 45px 0 25px; width: 300px; }  
+	}
+	.formtwiceway { padding-right: 0; }
+}
+@media screen and (max-width:765px) {
+	.menuboxflex { width: 100%; }
+}
+@media screen and (max-width:740px) {
+	.menuboxflex>div { flex: 0 1 33.3%; }
+}
+@media screen and (max-width:640px) {
+	.formtwiceway>div { flex: 1 1 100%; 
+		&:nth-child(odd) { padding-right: 0; }
+	}
+}
+@media screen and (max-width:600px) {
+	.menuboxflex>div { flex: 0 1 50%; }
+}
+@media screen and (max-width:540px) {
+	
+}
+@media screen and (max-width:480px) {
+	
+}
+@media screen and (max-width:400px) {
+	.menuboxflex>div { flex: 0 1 100%; }
+}
+@media screen and (max-width:350px) {
+	.bargenerate .barcodeplace { width: 100%; }
+}
