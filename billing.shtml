@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+      <title>Harvest Home</title>
+      <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+      <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,900" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+   </head>
+   <body>
+    <header>
+        <div class="container">
+            <div class="headflex">
+                <div>
+                    <div class="menubar">
+                        <div>
+                            <img src="images/inventoryicon.png" alt=""/>
+                            <h1>Inventory</h1>
+                        </div>
+                        <div>
+                            <div id="nav-icon">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                             </div>
+                             <span class="menutxt">Menu</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <div class="leftmenu">
+                <div class="menuboxflex">
+                    <div>
+                        <a href="#" class="boxrmenu">
+                            <span>
+                                <img class="nohover" src="images/billingmicon.png" alt="" />
+                                <img class="hover" src="images/billingpicon.png" alt="" />
+                                <small>Billing</small>
+                            </span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="boxrmenu">
+                            <span>
+                                <img class="nohover" src="images/salesmicon.png" alt="" />
+                                <img class="hover" src="images/salespicon.png" alt="" />
+                                <small>Purchases</small>
+                            </span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="boxrmenu">
+                            <span>
+                                <img class="nohover" src="images/inventorymicon.png" alt="" />
+                                <img class="hover" src="images/inventorypicon.png" alt="" />
+                                <small>Inventory</small>
+                            </span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="boxrmenu">
+                            <span>
+                                <img class="nohover" src="images/savingmicon.png" alt="" />
+                                <img class="hover" src="images/savingpicon.png" alt="" />
+                                <small>Saving</small>
+                            </span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="boxrmenu">
+                            <span>
+                                <img class="nohover" src="images/returnmicon.png" alt="" />
+                                <img class="hover" src="images/returnpicon.png" alt="" />
+                                <small>Return</small>
+                            </span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="boxrmenu">
+                            <span>
+                                <img class="nohover" src="images/stockmicon.png" alt="" />
+                                <img class="hover" src="images/stockpicon.png" alt="" />
+                                <small>Stock</small>
+                            </span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="boxrmenu">
+                            <span>
+                                <img class="nohover" src="images/balancemicon.png" alt="" />
+                                <img class="hover" src="images/balancepicon.png" alt="" />
+                                <small>Balance</small>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="tablewide">
+            <div class="tablehead six">
+                <div>Product ID</div>
+                <div>Product Name</div>
+                <div class="right">Type</div>
+                <div class="right">Weight</div>
+                <div>Sale Type</div>
+                <div class="right">Value</div>
+            </div>
+            <div class="tablecontent six">
+                <div data-title="Product ID">Jill</div>
+                <div data-title="Product Name">Smith</div>
+                <div data-title="Type" class="right">50</div>
+                <div data-title="Weight" class="right">Jill</div>
+                <div data-title="Sale Type">Smith</div>
+                <div data-title="Value" class="right">50</div>
+            </div>
+            <div class="tablecontent six">
+                <div data-title="Product ID">Jill</div>
+                <div data-title="Product Name">Smith</div>
+                <div data-title="Type" class="right">50</div>
+                <div data-title="Weight" class="right">Jill</div>
+                <div data-title="Sale Type">Smith</div>
+                <div data-title="Value" class="right">50</div>
+            </div>
+            <div class="tablecontent six">
+                <div data-title="Product ID">Jill</div>
+                <div data-title="Product Name">Smith</div>
+                <div data-title="Type" class="right">50</div>
+                <div data-title="Weight" class="right">Jill</div>
+                <div data-title="Sale Type">Smith</div>
+                <div data-title="Value" class="right">50</div>
+            </div>
+            <div class="tablecontent six">
+                <div data-title="Product ID">Jill</div>
+                <div data-title="Product Name">Smith</div>
+                <div data-title="Type" class="right">50</div>
+                <div data-title="Weight" class="right">Jill</div>
+                <div data-title="Sale Type">Smith</div>
+                <div data-title="Value" class="right">50</div>
+            </div>
+            <div class="tablecontent six">
+                <div data-title="Product ID">Jill</div>
+                <div data-title="Product Name">Smith</div>
+                <div data-title="Type" class="right">50</div>
+                <div data-title="Weight" class="right">Jill</div>
+                <div data-title="Sale Type">Smith</div>
+                <div data-title="Value" class="right">50</div>
+            </div>
+            <div class="tablecontent six">
+                <div data-title="Product ID">Jill</div>
+                <div data-title="Product Name">Smith</div>
+                <div data-title="Type" class="right">50</div>
+                <div data-title="Weight" class="right">Jill</div>
+                <div data-title="Sale Type">Smith</div>
+                <div data-title="Value" class="right">50</div>
+            </div>
+            <div class="tablecontent six">
+                <div data-title="Product ID">Jill</div>
+                <div data-title="Product Name">Smith</div>
+                <div data-title="Type" class="right">50</div>
+                <div data-title="Weight" class="right">Jill</div>
+                <div data-title="Sale Type">Smith</div>
+                <div data-title="Value" class="right">50</div>
+            </div>
+            <div class="tablecontent six">
+                <div data-title="Product ID">Jill</div>
+                <div data-title="Product Name">Smith</div>
+                <div data-title="Type" class="right">50</div>
+                <div data-title="Weight" class="right">Jill</div>
+                <div data-title="Sale Type">Smith</div>
+                <div data-title="Value" class="right">50</div>
+            </div>
+            <div class="tablecontent six">
+                <div data-title="Product ID">Jill</div>
+                <div data-title="Product Name">Smith</div>
+                <div data-title="Type" class="right">50</div>
+                <div data-title="Weight" class="right">Jill</div>
+                <div data-title="Sale Type">Smith</div>
+                <div data-title="Value" class="right">50</div>
+            </div>
+            <div class="tablecontent six">
+                <div data-title="Product ID">Jill</div>
+                <div data-title="Product Name">Smith</div>
+                <div data-title="Type" class="right">50</div>
+                <div data-title="Weight" class="right">Jill</div>
+                <div data-title="Sale Type">Smith</div>
+                <div data-title="Value" class="right">50</div>
+            </div>
+        </div>
+        <div class="totalcalc">
+            <div>
+                <div class="totalcalctwoside">
+                    <div>
+                        <div class="totaltext">SUB total</div>
+                        <div class="totaltext">Tax (%)</div>
+                        <div class="totaltext">Net total</div>
+                    </div>
+                    <div>
+                        <div class="totalnumber">12,345</div>
+                        <div class="totalnumber">345</div>
+                        <div class="totalnumber blue">12,690</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="btngroup">
+            <a href="#" class="btn secondary wide openpop">Cash</a>
+            <a href="#" class="btn tertiary wide openpop">Card</a>
+            <a href="#" class="btn tertiary wide openpop">Savings</a>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="copyrightarea">
+                <span class="copyn">&copy; 2018.NStore</span>
+                <span class="rightn">All Rights Reserved.</span>
+            </div>
+        </div>
+    </footer>
+    
+   <!-- Pop Up -->
+   <div class="popbg">
+       <div class="popflex">
+           <div>
+               <div class="calctotal">
+                   <a href="#" class="closebtn grey closepop">X</a>
+                   <div class="totalpart active">
+                       <div class="nettotalshow">
+                            <span class="titletxtb">Net Total</span>
+                            <b>12,690.00</b>
+                       </div>
+                       <div class="nettotalshow">
+                            <span class="titletxtb">Received Amount</span>
+                       </div>
+                       <div class="inputget">
+                            <input type="number" />
+                            <span class="closebtn clear">X</span>
+                        </div>
+                        <button class="btn tertiary wide nextbtn">Done</button>
+                   </div>
+                   <div class="totalpart">
+                        <div class="nettotalshow">
+                             <span class="titletxtb">Net Total</span>
+                             <b>12,690.00</b>
+                        </div>
+                        <div class="nettotalshow">
+                             <span class="titletxtb">Received Amount</span>
+                        </div>
+                        <div class="inputget">
+                             <input type="number" value="13000.00" readonly />
+                         </div>
+                         <div class="nettotalshow">
+                            <span class="titletxtb">Balance Amount</span>
+                        </div>
+                        <div class="inputget">
+                            <input type="number" value="310.00" readonly />
+                        </div>
+                         <button class="btn tertiary wide nextbtn">Close</button>
+                    </div>
+               </div>
+           </div>
+       </div>
+   </div>
+   <!-- script -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+   <script src="js/main.js"></script>
+   </body>
+</html>
